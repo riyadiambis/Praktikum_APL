@@ -210,7 +210,7 @@ int main(){
                             cout << "----------------------------------------------------\n";
                             cout << "Masukkan jarak dalam Kilometer = ";
                             cin >> km;
-                            cout << fixed << setprecision(0);
+                            cout << fixed << setprecision(7);
                             cout << "Hasil konversi: " << km * 1000 << " meter" << endl;
                             cout << "\nTekan Enter untuk kembali ke menu...";
                             cin.ignore();
@@ -223,7 +223,7 @@ int main(){
                             cout << "----------------------------------------------------\n";
                             cout << "Masukkan jarak dalam Kilometer = ";
                             cin >> km;
-                            cout << fixed << setprecision(0);
+                            cout << fixed << setprecision(7);
                             cout << "Hasil konversi: " << km * 100000 << " centimeter" << endl;
                             cout << "\nTekan Enter untuk kembali ke menu...";
                             cin.ignore();
@@ -236,7 +236,7 @@ int main(){
                             cout << "----------------------------------------------------\n";
                             cout << "Masukkan jarak dalam Meter = ";
                             cin >> m;
-                            cout << fixed << setprecision(0);
+                            cout << fixed << setprecision(7);
                             cout << "Hasil konversi: " << m / 1000 << " kilometer" << endl;
                             cout << "\nTekan Enter untuk kembali ke menu...";
                             cin.ignore();
@@ -249,7 +249,7 @@ int main(){
                             cout << "----------------------------------------------------\n";
                             cout << "Masukkan jarak dalam Meter = ";
                             cin >> m;
-                            cout << fixed << setprecision(0);
+                            cout << fixed << setprecision(7);
                             cout << "Hasil konversi: " << m * 100 << " centimeter" << endl;
                             cout << "\nTekan Enter untuk kembali ke menu...";
                             cin.ignore();
@@ -262,7 +262,7 @@ int main(){
                             cout << "----------------------------------------------------\n";
                             cout << "Masukkan jarak dalam Centimeter = ";
                             cin >> cm;
-                            cout << fixed << setprecision(0);
+                            cout << fixed << setprecision(7);
                             cout << "Hasil konversi: " << cm / 100000 << " kilometer" << endl;
                             cout << "\nTekan Enter untuk kembali ke menu...";
                             cin.ignore();
@@ -275,7 +275,7 @@ int main(){
                             cout << "----------------------------------------------------\n";
                             cout << "Masukkan jarak dalam Centimeter = ";
                             cin >> cm;
-                            cout << fixed << setprecision(0);
+                            cout << fixed << setprecision(7);
                             cout << "Hasil konversi: " << cm / 100 << " meter" << endl;
                             cout << "\nTekan Enter untuk kembali ke menu...";
                             cin.ignore();
@@ -479,7 +479,7 @@ int main(){
                             cout << "----------------------------------------------------\n";
                             cout << "Masukkan nilai dalam Kilobyte = ";
                             cin >> kb;
-                            cout << fixed << setprecision(2);
+                            cout << fixed << setprecision(6);
                             cout << "Hasil konversi: " << kb / 1024 << " Megabyte" << endl;
                             cout << "\nTekan Enter untuk kembali ke menu...";
                             cin.ignore();
@@ -504,7 +504,7 @@ int main(){
                             cout << "----------------------------------------------------\n";
                             cout << "Masukkan nilai dalam Megabyte = ";
                             cin >> mb;
-                            cout << fixed << setprecision(2);
+                            cout << fixed << setprecision(6);
                             cout << "Hasil konversi: " << mb / 1024 << " Gigabyte" << endl;
                             cout << "\nTekan Enter untuk kembali ke menu...";
                             cin.ignore();

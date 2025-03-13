@@ -1,0 +1,9 @@
+Array merupakan kumpulan variabel yang memiliki tipe data yang sama
+
+Deklarasi elemen array perlu untuk menghindari kesalahan jumnlah dalam deklarasi
+
+Mengakses array tidak bisa menggunakan minus seperti python
+
+Tidak ada delete permanen dalam python
+
+compiler adalah suatu alat yang menerjemahkan bahasa manusia ke dalam bahasa komputer
